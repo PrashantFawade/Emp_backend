@@ -1,0 +1,520 @@
+{
+  "items": [
+    {
+      "id": 101,
+      "cuisine": "Indian",
+      "image": "assets/indian.jpg",
+      "slogan": "Where Diverse Meets Delicious!",
+      "restaurantAvailable": [
+        {
+          "name": "Spotlight",
+          "image": "assets/spotlight.jpg",
+          "Spotlight": {
+            "details": {
+              "rating": 4.2
+            },
+            "foodAvailable": [
+              {
+                "name": "Aloo paratha",
+                "image": "assets/alooparatha.jpg",
+                "rate": 50,
+                "type": "Veg"
+              },
+              {
+                "name": "Pav baji",
+                "image": "assets/pavbhaji.jpg",
+                "rate": 70,
+                "type": "Veg"
+              },
+              {
+                "name": "Biryani",
+                "image": "assets/biryani.jpg",
+                "rate": 100,
+                "type": "No-Veg"
+              },
+              {
+                "name": "Butter Naan",
+                "image": "assets/butternaan.jpg",
+                "rate": 40,
+                "type": "Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Green Leaf",
+          "image": "assets/greenleaf.jpg",
+          "Green Leaf": {
+            "details": {
+              "rating": 4.4
+            },
+            "foodAvailable": [
+              {
+                "name": "Paneer tikka",
+                "image": "assets/paneertikka.jpg",
+                "rate": 150,
+                "type": "Veg"
+              },
+              {
+                "name": "Chole bhatura",
+                "image": "assets/cholebhature.jpg",
+                "rate": 70,
+                "type": "Veg"
+              },
+              {
+                "name": "Dosa",
+                "image": "assets/dosa.jpg",
+                "rate": 40,
+                "type": "Veg"
+              },
+              {
+                "name": "Veg cutlet",
+                "image": "assets/vegcutlet.jpg",
+                "rate": 50,
+                "type": "Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Earthling",
+          "image": "assets/earthling.jpg",
+          "Earthling": {
+            "details": {
+              "rating": 4
+            },
+            "foodAvailable": [
+              {
+                "name": "Veg roll",
+                "image": "assets/vegroll.jpg",
+                "rate": 60,
+                "type": "Veg"
+              },
+              {
+                "name": "Paneer tandoori",
+                "image": "assets/paneertandoori.jpg",
+                "rate": 140,
+                "type": "Veg"
+              },
+              {
+                "name": "Chappati",
+                "image": "assets/chappati.jpg",
+                "rate": 20,
+                "type": "Veg"
+              },
+              {
+                "name": "Soups",
+                "image": "assets/soups.jpg",
+                "rate": 80,
+                "type": "Non-Veg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "cuisine": "Chinese",
+      "image": "assets/chinese.jpg",
+      "slogan": "More Than Just Delicious!",
+      "restaurantAvailable": [
+        {
+          "name": "The Nanking",
+          "image": "assets/thenanking.jpg",
+          "The Nanking": {
+            "details": {
+              "rating": 4.2
+            },
+            "foodAvailable": [
+              {
+                "name": "Mushroom Noodles",
+                "image": "assets/mushroomnoodles.jpg",
+                "rate": 90,
+                "type": "Veg"
+              },
+              {
+                "name": "Dumplings",
+                "image": "assets/dumplings.jpg",
+                "rate": 110,
+                "type": "Veg"
+              },
+              {
+                "name": "Ma Po Tofu",
+                "image": "assets/mapotofu.jpg",
+                "rate": 150,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Kung Pao Chicken",
+                "image": "assets/kungpaochicken.jpg",
+                "rate": 250,
+                "type": "Non-Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Delight",
+          "image": "assets/delight.jpg",
+          "Delight": {
+            "details": {
+              "rating": 4.3
+            },
+            "foodAvailable": [
+              {
+                "name": "Dim Sum",
+                "image": "assets/dimsum.jpg",
+                "rate": 130,
+                "type": "Veg"
+              },
+              {
+                "name": "Char Siu",
+                "image": "assets/charsiu.jpg",
+                "rate": 150,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Szechwan Chicken",
+                "image": "assets/szechwanchicken.jpg",
+                "rate": 250,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Shitake Chestnuts",
+                "image": "assets/shitakechestnuts.jpg",
+                "rate": 170,
+                "type": "Non-Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Chinese Spot",
+          "image": "assets/chinesespot.jpg",
+          "Chinese Spot": {
+            "details": {
+              "rating": 4.4
+            },
+            "foodAvailable": [
+              {
+                "name": "Quick Noodles",
+                "image": "assets/quicknoodles.jpg",
+                "rate": 80,
+                "type": "Veg"
+              },
+              {
+                "name": "Spring Rolls",
+                "image": "assets/springrolls.jpg",
+                "rate": 150,
+                "type": "Veg"
+              },
+              {
+                "name": "Stir Fried Tofu Rice",
+                "image": "assets/stirfriedtofurice.jpg",
+                "rate": 170,
+                "type": "Veg"
+              },
+              {
+                "name": "Chicken Chestnuts",
+                "image": "assets/chickenchestnuts.jpg",
+                "rate": 300,
+                "type": "Non-Veg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "cuisine": "Italian",
+      "image": "assets/italian.jpg",
+      "slogan": "Come Join Our Italian Family!",
+      "restaurantAvailable": [
+        {
+          "name": "Festo",
+          "image": "assets/festo.jpg",
+          "Festo": {
+            "details": {
+              "rating": 4.2
+            },
+            "foodAvailable": [
+              {
+                "name": "Panzenella",
+                "image": "assets/Panzenella.jpg",
+                "rate": 90,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Bruschetta",
+                "image": "assets/Bruschetta.jpg",
+                "rate": 120,
+                "type": "Veg"
+              },
+              {
+                "name": "Focaccia Bread",
+                "image": "assets/FocacciaBread.jpg",
+                "rate": 150,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Mushroom Risotto",
+                "image": "assets/MushroomRisotto.jpg",
+                "rate": 180,
+                "type": "Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Oasis",
+          "image": "assets/oasis.jpg",
+          "Oasis": {
+            "details": {
+              "rating": 4.1
+            },
+            "foodAvailable": [
+              {
+                "name": "Pasta Con Basilico",
+                "image": "assets/PastaConBasilico.jpg",
+                "rate": 150,
+                "type": "Veg"
+              },
+              {
+                "name": "Caprese Salad Pesto",
+                "image": "assets/CapreseSaladPesto.jpg",
+                "rate": 220,
+                "type": "Veg"
+              },
+              {
+                "name": "Pasta Carbonara",
+                "image": "assets/PastaCarbonara.jpg",
+                "rate": 200,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Spaghetti Carbo",
+                "image": "assets/SpaghettiCarbo.jpg",
+                "rate": 240,
+                "type": "Non-Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Onesta",
+          "image": "assets/onesta.jpg",
+          "Onesta": {
+            "details": {
+              "rating": 4.3
+            },
+            "foodAvailable": [
+              {
+                "name": "Margherita Pizza",
+                "image": "assets/MargheritaPizza.jpg",
+                "rate": 270,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Farmhouse Pizza",
+                "image": "assets/FarmhousePizza.jpg",
+                "rate": 240,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Paneer Pizza",
+                "image": "assets/PaneerPizza.jpg",
+                "rate": 300,
+                "type": "Veg"
+              },
+              {
+                "name": "Cheese & Corn",
+                "image": "assets/Cheese&Corn.jpg",
+                "rate": 180,
+                "type": "Veg"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "cuisine": "Mexican",
+      "slogan": "Experience The Taste Of Mexico!",
+      "image": "assets/mexican.jpg",
+      "restaurantAvailable": [
+        {
+          "name": "TacoBar",
+          "image": "assets/tacobar.jpg",
+          "TacoBar": {
+            "details": {
+              "rating": 4
+            },
+            "foodAvailable": [
+              {
+                "name": "Mexican Rice",
+                "image": "assets/MexicanRice.jpg",
+                "rate": 150,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Discada",
+                "image": "assets/Discada.jpg",
+                "rate": 170,
+                "type": "Veg"
+              },
+              {
+                "name": "Huevos Rancheros",
+                "image": "assets/HuevosRancheros.jpg",
+                "rate": 250,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Pozole de Guajolote",
+                "image": "assets/PozoledeGuajolote.jpg",
+                "rate": 330,
+                "type": "Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TacoBell",
+          "image": "assets/tacobell.jpg",
+          "TacoBell": {
+            "details": {
+              "rating": 4.4
+            },
+            "foodAvailable": [
+              {
+                "name": "Soft Taco",
+                "image": "assets/SoftTaco.jpg",
+                "rate": 150,
+                "type": "Veg"
+              },
+              {
+                "name": "Tikka Masala Burrito",
+                "image": "assets/TikkaMasalaBurrito.jpg",
+                "rate": 250,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Quesadilla",
+                "image": "assets/Quesadilla.jpg",
+                "rate": 240,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Sriracha Burrito",
+                "image": "assets/SrirachaBurrito.jpg",
+                "rate": 310,
+                "type": "Veg"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Fiesta",
+          "image": "assets/fiesta.jpg",
+          "Fiesta": {
+            "details": {
+              "rating": 4.2
+            },
+            "foodAvailable": [
+              {
+                "name": "Chilaquiles",
+                "image": "assets/Chilaquiles.jpg",
+                "rate": 2302,
+                "type": "Veg"
+              },
+              {
+                "name": "Tostadas",
+                "image": "assets/Tostadas.jpg",
+                "rate": 350,
+                "type": "Veg"
+              },
+              {
+                "name": "Enchiladas",
+                "image": "assets/Enchiladas.jpg",
+                "rate": 150,
+                "type": "Non-Veg"
+              },
+              {
+                "name": "Chilli Con Carne",
+                "image": "assets/ChilliConCarne.jpg",
+                "rate": 190,
+                "type": "Non-Veg"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "state": "Arunachal Pradesh",
+      "city": "aaaaaa",
+      "zip": "333333",
+      "area": "jjjjjjjujjjj",
+      "id": 1
+    },
+    {
+      "name": "Jeyanthi",
+      "mobNo": 9876543219,
+      "password": "Jeyan$1234",
+      "address": {
+        "state": "Tamil Nadu",
+        "city": "Madurai",
+        "zip": "543278",
+        "area": "Ganesh Nagar"
+      },
+      "id": 2
+    },
+    {
+      "firstName": "prakahr",
+      "lastName": "bhadola",
+      "mobileNumber": "9999999999",
+      "password": "000000",
+      "confirmPassword": "000000",
+      "state": "",
+      "city": "kkkkk",
+      "zip": "888888",
+      "area": "asdasd",
+      "id": 3
+    }
+  ],
+  "states": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+  ]
+}
