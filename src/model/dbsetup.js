@@ -5,14 +5,14 @@ const Items = require('./department');
 
 
 
-  // const employee = [ {
-  //   "name": "sai yenkure",
-  //   "dob" : "04/02/2000",
-  //   "mobNumber": 901010101,
-  //   "email" : "Saiyenkure2000@gmail.com",
-  //   "address": "At.Post.BOROLLLL",
-  //   "pincode": 400001
-  // }]
+  const employee = [ {
+    "name": "sai yenkure",
+    "dob" : "04/02/2000",
+    "mobNumber": 901010101,
+    "email" : "Saiyenkure2000@gmail.com",
+    "address": "At.Post.BOROLLLL",
+    "pincode": 400001
+  }]
 
   const department = [ {
     "deptname": "MFGADM Department",
@@ -28,20 +28,20 @@ const Items = require('./department');
     //  let itemObj = new Items(items)
     // let insertItoms = await itemsModel.insertMany(itemObj);
    
-    // let usersModel = await collection.getAddEmployeeConnection();
-    // await usersModel.deleteMany();
-    // let insertUsers = await usersModel.insertMany(employee);
+    let usersModel = await collection.getAddEmployeeConnection();
+    await usersModel.deleteMany();
+    let insertUsers = await usersModel.insertMany(employee);
 
 
-    let dept = await collection.getAddDepartmentConnection();
-    await dept.deleteMany();
-    let insertDepartment = await dept.insertMany(department);
+    // let dept = await collection.getAddDepartmentConnection();
+    // await dept.deleteMany();
+    // let insertDepartment = await dept.insertMany(department);
 
     // let statesModel = await connection.getStatesConnection();
     // await statesModel.deleteMany();
     // let insertStates = await statesModel.insertMany(states);
 
-    if( insertDepartment ){
+    if( insertUsers ){
         return 'Insertion successful !!!'
     }else{
         let err = new Error("Insertion failed");
