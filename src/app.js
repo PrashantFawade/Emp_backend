@@ -16,7 +16,7 @@ app.get('/setupDB' ,async (req,res,next)=>{
         let data = await dbsetup.setupDb();
         res.send(data)
     } catch (err) {
-        res.send("Error occurred during insertion of data here")
+        res.send("Error occurred during insertion of data here in app.js 'prashant fawade'")
     }
 });
 
